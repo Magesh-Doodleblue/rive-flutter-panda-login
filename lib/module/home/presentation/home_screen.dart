@@ -11,8 +11,8 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  String validEmail = "Dandi@gmail.com";
-  String validPassword = "12345";
+  String validEmail = "magesh@gmail.com";
+  String validPassword = "123";
 
   /// input form controller
   FocusNode emailFocusNode = FocusNode();
@@ -92,8 +92,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 onInit: (artboard) {
                   controller = StateMachineController.fromArtboard(
                     artboard,
-
-                    /// from rive, you can see it in rive editor
                     "Login Machine",
                   );
                   if (controller == null) return;
