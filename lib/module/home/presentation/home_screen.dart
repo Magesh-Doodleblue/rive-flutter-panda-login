@@ -14,14 +14,12 @@ class _HomeScreenState extends State<HomeScreen> {
   String validEmail = "magesh@gmail.com";
   String validPassword = "123";
 
-  /// input form controller
   FocusNode emailFocusNode = FocusNode();
   TextEditingController emailController = TextEditingController();
 
   FocusNode passwordFocusNode = FocusNode();
   TextEditingController passwordController = TextEditingController();
 
-  /// rive controller and input
   StateMachineController? controller;
 
   SMIInput<bool>? isChecking;
